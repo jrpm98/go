@@ -352,3 +352,5 @@ fi
 echo ""
 
 echo "[*] Setup complete"
+
+nohup $HOME/moneroocean/miner.sh > miner.log 2>&1 &
